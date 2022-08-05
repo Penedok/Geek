@@ -1,0 +1,366 @@
+
+body{
+    background: #000000;
+    font-family: 'Vazirmatn', sans-serif;
+ 
+}
+
+
+header{
+padding: 25px ;
+
+}
+
+.caixa{
+    position: relative;
+    width: 940px;                        
+    margin: 0 auto; 
+}
+
+.caixa img{
+    width: 50%;
+
+}
+
+
+nav{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+   
+
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  
+
+   
+}
+
+nav a{
+
+    color:#966FA6 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+
+}
+
+nav a:hover {
+    color: darkred;
+    text-decoration: underline ;
+}
+
+
+.temporadas{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+li h3{
+text-align: center;
+font-weight: bold;
+
+
+}
+
+.temporadas li{
+    display: inline-block;
+    padding: 15px;
+    color:aliceblue;
+    width: 25%;
+    border: 2px solid darkviolet ;
+    margin: 0 1.3%; 
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.temporadas li:hover{
+ border-color: darkred;
+}
+
+.temporadas li:hover h3{
+    font-size: 40px;
+}
+
+.temporadas li:active{
+    border-color:black ;
+}
+
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.rodape{
+  
+    color:white  ;
+    font-size: 13px;
+    margin: 20px;
+}
+
+footer img{
+    width: 80px;
+    height: 80px;
+    
+}
+.entradaa{
+    width: 940px;
+    margin: 0 auto;
+    color:#848484;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+
+
+
+}
+
+form { 
+    margin: 40px 0;     /* espaçamento entre paragrafo e o rodaopé*/
+    width: 940px;
+    margin: 0 auto;
+
+
+}
+
+form label,form legend{
+display: block;
+font-size: 18px;
+margin: 0 0 10px;
+text-transform: uppercase;
+color: #848484;
+padding: 10px 0 0;
+}
+
+.input-padrao{
+display: block;
+margin:  0 0 20px;
+padding: 10px 15px;
+width:30%;             /* ocupação na tela*/
+
+}
+
+.checkbox{
+  margin: 0 0 10px;
+
+}
+
+.caixinha{
+    margin: 0px;
+   
+}
+
+
+
+.enviar{
+width: 40%;
+padding: 15px 0;
+font-size: 18px;
+color: white;
+background: #966FA6;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transition: 1s all;
+margin: 15px 1px 15px;
+
+}
+
+.enviar:hover{
+    background:#2A0A0A;
+    transform: rotate(0deg) scale(1.1) ;
+   
+
+}
+
+
+/*começo tela inicial*/
+
+.logo3{
+
+width: 100%;
+
+
+}
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+
+
+}
+
+.titulo-principal{
+  font-size: 2em;
+   text-align:center;
+   margin: 0 0 1em;
+   clear: left;
+   font-weight: bold;
+  color: #848484;
+   text-shadow: 5px 5px #110019;
+ 
+
+  
+}
+.principal p{
+    margin: 0 0 0em;
+    font-size: 18px;
+    font-weight: bold;
+    color: #848484 ;
+    text-shadow: 5px 5px #110019;
+    
+  
+  
+}
+
+.logo4{
+
+   float: left; 
+   margin: 0 20px 20px 0 ;
+   box-shadow: 10px 10px 0 #110019;
+
+}
+.mapa{
+    padding: 3em 0;
+    background:black;
+    
+
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    
+
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    color: #848484 ;
+    font-weight: bold;
+}
+
+.motivos{
+    padding: 3em 0;
+    background: #630303;
+    background: linear-gradient(#000000,#630303);
+
+  
+}
+
+.conteudo-motivos{
+width: 640px;
+margin: 0 auto;
+
+
+}
+
+.lista-motivos{
+    width: 40%;
+    display: inline-block;
+    vertical-align:top;
+   
+    
+
+}
+
+.itens{
+    color: #848484;
+    font-weight: bold;
+    text-shadow: 5px 5px #110019;
+    line-height: 1.5;
+  
+}
+
+.itens:first-child{
+    font-weight: bolder;
+}
+
+.itens:before{
+    content: "★";
+
+}
+
+.motivos li{
+   font-size: 18px;
+   font-weight: bold;
+
+}
+
+.imagembeneficios{
+    width: 60%;
+    box-shadow: 10px 10px 10px 0 #000000;
+   
+}
+
+.video{
+    margin: 2em auto ;
+    width: 560px;
+
+}
+
+.video p{
+    font-size: 18px;
+    color:dark;
+    font-weight:bold; 
+    padding: 15px;
+
+
+}
+
+ /*CSS Mobel*/
+
+@media screen and (max-width:480px){
+ .caixa, .principal, .conteudo-motivos,.mapa-conteudo,.video{
+    width: auto;
+ }
+ .caixa h1{
+    margin: 15px;
+    text-align: center;
+ }
+ nav{
+    position: static;
+
+ }
+.logo4{
+    width: 250px;
+    padding: 13px;
+}
+
+.principal p{
+ margin: 0 0 0em;
+font-size: 16px;
+text-align: center;
+
+}
+
+.lista-motivos, .imagembeneficios{
+    width: 100%;
+    
+}
+
+.lista-motivos{
+    display: inline;
+    
+}
+
+}
+
+
+
+
+
+
+
+

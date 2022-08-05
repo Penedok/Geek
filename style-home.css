@@ -1,0 +1,87 @@
+
+
+body{
+    background:#4E0C0C;
+
+}
+
+img{
+    margin-top: 10px;
+
+}
+
+.principal {
+    background:#1B0707 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-top: 10px;
+} 
+
+h1{
+    color: aliceblue;
+
+}
+
+p{
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+
+
+.lista{
+   font-family: Verdana, Geneva, Tahoma, sans-serifs;
+   color: aliceblue;
+   margin: 20px;
+}
+
+.imagembeneficios{
+    width: 50%;
+}
+
+.link{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+a{
+    color: aliceblue;
+}
+ 
+
+footer{
+    text-align: center;
+    padding: 150px;
+
+}
+
+footer img{
+    width: 80px;
+    height: 80px;
+}
+
+.rodape{
+    font-size: 13px;
+    color: white;
+    margin: 20px;
+}
+

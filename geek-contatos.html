@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contatoo - Geek</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+       
+        <header>
+
+            <div class="caixa">
+
+            <h1> <img src="./imagens/Logo-Stranger-Things.png" alt="logo stranger things"> </h1>
+
+            <nav>
+                <ul>
+
+                    <li> <a href="stranger_things.html" >Home</a></li>
+                    <li> <a href="temporadas.html">Temporadas</a></li>
+                    <li> <a href="contato.html">Contato</a></li>
+
+                </ul>
+
+            </nav>
+
+            </div>
+        </header>
+
+        <main>
+
+            <div class="entradaa">
+                <h3>Gostaria de receber nossas novidades por email? </h3>
+                <input type="radio" name="opcao" value="claro" id= "checkbox-claro" class="caixinha" > Claro
+                <input type="radio" name="opcao" value="claro" id= "checkbox-claro" class="caixinha" > Não
+            </div>
+
+            <form>
+               
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required >
+
+                <label form="email"> Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="exemplo@teste.com">
+
+                <label for="telefone">Telefone </label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+                
+        
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required> </textarea>
+
+                <fieldset>
+
+                    <legend>Como prefere nosso contato?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for ="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                   
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+
+                </fieldset>
+
+                <fieldset>
+                    
+                    <legend>Quais novidades gostaria de receber</legend>
+
+                    <select>
+                        <option>Músicas que bombam</option>
+                        <option>Filmes / Séries</option>
+                        <option>Games</option>
+                        <option>Apenas assuntos sobre stranger things</option>
+
+                    </select>
+
+                </fieldset>
+               
+                <input type="submit" value="Enviar Formulário" class="enviar">
+
+            </form>
+
+        </main>
+
+
+        <footer>
+
+            <img src="./imagens/logo.stra.jpg">
+
+                <p class="rodape">
+                   &copy; Copyright - Geek Programador
+
+
+                </p>
+
+
+
+
+        </footer>
+
+
+
+    </body>
+
+
+    </html>
+
+
